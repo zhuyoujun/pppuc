@@ -1,0 +1,15 @@
+1.compile time errors
+	> syntax errors
+	> type errors
+2.link time errors:
+
+3.run time errors:
+	>errors detected by computer
+	>errors detected by a library
+	>errors detected by user code
+
+4.logic errors:
+
+###################################
+Eliminating all errors is our dream,but it's not feasible.
+Errors are natural and unavoidable,how do we deal with the them?
