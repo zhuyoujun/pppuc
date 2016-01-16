@@ -35,17 +35,12 @@ echo "------end------"
 # 2. git clone a project. 
 #	> git clone git@github.com:zhuyoujun/mitos.git
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# 3. init a new repository
+#	> git init
+#	> git add -A   #add all files 
+#	> git add file.type
+#	> git commit -m "first commit"
+#	> git remote add origin git@github.com:xxx/xxx.git
+#	> git push -u origin master // first push add -u
 #
 ###############################################
