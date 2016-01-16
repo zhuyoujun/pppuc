@@ -32,6 +32,7 @@ echo "------end------"
 #	  > ssh-keygen -t rsa -C "your_email@example.com"
 #	  > cat id_rsa.pub
 #	> add key in your git account at website:settings->SSH keys->Add SSH key.
+
 # 2. git clone a project. 
 #	> git clone git@github.com:zhuyoujun/mitos.git
 #
