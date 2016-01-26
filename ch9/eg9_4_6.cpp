@@ -6,6 +6,7 @@ public:
 	class Invalid {};
 	Date(int _y, int _m, int _d);
 	int month() {return m;}
+	void add_day(int n);
 	//...
 private:
 	int y,m,d;	//year, month, day
@@ -19,6 +20,11 @@ Date::Date(int _y, int _m, int _d)
 	if(!check()) throw Invalid();
 }
 
+void Date::add_day(int n)
+{
+	d += n;
+}
+
 bool Date::check()
 {
 	if(m < 1 || m > 12) { return false; }
@@ -26,6 +32,19 @@ bool Date::check()
 	else{ return true;}
 }
 
+void f(int x, int y)
+{
+	try
+	{
+		Date dxy(2004,x,y);
+		std::cout << dxy.month() << '\n';
+		dxy.add_day(2);
+	}
+	catch(Date::Invalid)
+	{
+		std::cout << "invalid date" << std::endl;
+	}
+}
 
 int main()
 {
