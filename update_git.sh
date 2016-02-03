@@ -35,7 +35,8 @@ echo "------end------"
 
 # 2. git clone a project. 
 #	> git clone git@github.com:zhuyoujun/mitos.git
-#
+#	or
+#	> git clone https://github.com/zhuyoujun/nand2tetris.git
 # 3. init a new repository
 #	> git init
 #	> git add -A   #add all files 
